@@ -14,6 +14,10 @@
 		7F4B7086233074AA00D8586D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4B7084233074AA00D8586D /* LaunchScreen.storyboard */; };
 		7F4B7089233074AA00D8586D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B7088233074AA00D8586D /* main.m */; };
 		7F4B7093233086DB00D8586D /* RotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B7092233086DB00D8586D /* RotateViewController.m */; };
+		7F4B709623308F6B00D8586D /* MoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B709523308F6B00D8586D /* MoveViewController.m */; };
+		7F4B70992330B5F700D8586D /* keyFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B70982330B5F700D8586D /* keyFrameViewController.m */; };
+		7F4B709C2330C77700D8586D /* AnimationGrounpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B709B2330C77700D8586D /* AnimationGrounpViewController.m */; };
+		7F4B709F2330CBC400D8586D /* TransitonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B709E2330CBC400D8586D /* TransitonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,14 @@
 		7F4B7088233074AA00D8586D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F4B7091233086DB00D8586D /* RotateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateViewController.h; sourceTree = "<group>"; };
 		7F4B7092233086DB00D8586D /* RotateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateViewController.m; sourceTree = "<group>"; };
+		7F4B709423308F6B00D8586D /* MoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveViewController.h; sourceTree = "<group>"; };
+		7F4B709523308F6B00D8586D /* MoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveViewController.m; sourceTree = "<group>"; };
+		7F4B70972330B5F700D8586D /* keyFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keyFrameViewController.h; sourceTree = "<group>"; };
+		7F4B70982330B5F700D8586D /* keyFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = keyFrameViewController.m; sourceTree = "<group>"; };
+		7F4B709A2330C77700D8586D /* AnimationGrounpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationGrounpViewController.h; sourceTree = "<group>"; };
+		7F4B709B2330C77700D8586D /* AnimationGrounpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationGrounpViewController.m; sourceTree = "<group>"; };
+		7F4B709D2330CBC400D8586D /* TransitonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitonViewController.h; sourceTree = "<group>"; };
+		7F4B709E2330CBC400D8586D /* TransitonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,14 @@
 			children = (
 				7F4B7091233086DB00D8586D /* RotateViewController.h */,
 				7F4B7092233086DB00D8586D /* RotateViewController.m */,
+				7F4B709423308F6B00D8586D /* MoveViewController.h */,
+				7F4B709523308F6B00D8586D /* MoveViewController.m */,
+				7F4B70972330B5F700D8586D /* keyFrameViewController.h */,
+				7F4B70982330B5F700D8586D /* keyFrameViewController.m */,
+				7F4B709A2330C77700D8586D /* AnimationGrounpViewController.h */,
+				7F4B709B2330C77700D8586D /* AnimationGrounpViewController.m */,
+				7F4B709D2330CBC400D8586D /* TransitonViewController.h */,
+				7F4B709E2330CBC400D8586D /* TransitonViewController.m */,
 			);
 			path = rotate;
 			sourceTree = "<group>";
@@ -162,10 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4B70992330B5F700D8586D /* keyFrameViewController.m in Sources */,
 				7F4B707E2330749A00D8586D /* ViewController.m in Sources */,
+				7F4B709623308F6B00D8586D /* MoveViewController.m in Sources */,
 				7F4B7089233074AA00D8586D /* main.m in Sources */,
 				7F4B707B2330749A00D8586D /* AppDelegate.m in Sources */,
+				7F4B709F2330CBC400D8586D /* TransitonViewController.m in Sources */,
 				7F4B7093233086DB00D8586D /* RotateViewController.m in Sources */,
+				7F4B709C2330C77700D8586D /* AnimationGrounpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
