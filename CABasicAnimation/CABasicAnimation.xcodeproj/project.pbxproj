@@ -18,6 +18,7 @@
 		7F4B70992330B5F700D8586D /* keyFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B70982330B5F700D8586D /* keyFrameViewController.m */; };
 		7F4B709C2330C77700D8586D /* AnimationGrounpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B709B2330C77700D8586D /* AnimationGrounpViewController.m */; };
 		7F4B709F2330CBC400D8586D /* TransitonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B709E2330CBC400D8586D /* TransitonViewController.m */; };
+		7F4B70C92331E2BA00D8586D /* WaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B70C82331E2BA00D8586D /* WaveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		7F4B709B2330C77700D8586D /* AnimationGrounpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationGrounpViewController.m; sourceTree = "<group>"; };
 		7F4B709D2330CBC400D8586D /* TransitonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitonViewController.h; sourceTree = "<group>"; };
 		7F4B709E2330CBC400D8586D /* TransitonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitonViewController.m; sourceTree = "<group>"; };
+		7F4B70C72331E2BA00D8586D /* WaveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveViewController.h; sourceTree = "<group>"; };
+		7F4B70C82331E2BA00D8586D /* WaveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,7 @@
 		7F4B708F233086BD00D8586D /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				7F4B70C62331E29400D8586D /* 水波动画 */,
 				7F4B7090233086BD00D8586D /* rotate */,
 			);
 			path = Class;
@@ -110,6 +114,15 @@
 				7F4B709E2330CBC400D8586D /* TransitonViewController.m */,
 			);
 			path = rotate;
+			sourceTree = "<group>";
+		};
+		7F4B70C62331E29400D8586D /* 水波动画 */ = {
+			isa = PBXGroup;
+			children = (
+				7F4B70C72331E2BA00D8586D /* WaveViewController.h */,
+				7F4B70C82331E2BA00D8586D /* WaveViewController.m */,
+			);
+			path = "水波动画";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4B70C92331E2BA00D8586D /* WaveViewController.m in Sources */,
 				7F4B70992330B5F700D8586D /* keyFrameViewController.m in Sources */,
 				7F4B707E2330749A00D8586D /* ViewController.m in Sources */,
 				7F4B709623308F6B00D8586D /* MoveViewController.m in Sources */,

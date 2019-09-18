@@ -35,7 +35,7 @@
     [self zoomAnimation];
 }
 - (void)moveAnimation:(CGPoint)point{
-    //设置基本动画旋转
+    //设置基本动画
     CABasicAnimation *basicAnimation = [CABasicAnimation animationWithKeyPath:@"position"];
     //动画执行时间
     basicAnimation.duration = 1.0;

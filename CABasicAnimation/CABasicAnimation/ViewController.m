@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WaveViewController.h"
 #import "RotateViewController.h"
 #import "MoveViewController.h"
 #import "keyFrameViewController.h"
@@ -73,7 +74,19 @@
     [transitonButton setTitle:@"转场动画" forState:UIControlStateNormal];
     [transitonButton addTarget:self action:@selector(transitonAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:transitonButton];
+    
+    UIButton *waveButton = [[UIButton alloc] initWithFrame:CGRectMake(120, transitonButton.frame.origin.y+30, 150, 40)];
+    waveButton.backgroundColor = [UIColor greenColor];
+    [waveButton setTitle:@"水波动画" forState:UIControlStateNormal];
+    [waveButton addTarget:self action:@selector(waveAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:waveButton];
+    
 }
+- (void)waveAction{
+    WaveViewController *rotateVc = [[WaveViewController alloc] init];
+    [self.navigationController pushViewController:rotateVc animated:YES];
+}
+
 - (void)transitonAction{
     CATransition *transiont = [CATransition animation];
     /**
